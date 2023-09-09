@@ -1,0 +1,157 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left:0;
+  background-color: rgb(231, 231, 231);
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  font-size:14px;
+  font-family:roboto;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(255, 170, 12);
+  border-bottom-width:5px;
+  padding-right:25px;
+  z-index:100;
+  
+}
+.left-section{
+  display: flex;
+  flex-direction: row;
+
+}
+.amazon-logo{
+  display:flex;
+  flex-shrink:0;
+  min-width:50px;
+  width: 100%;
+  height:80px;
+  padding: 10px 10px 10px 10px;
+  
+}
+.location{
+  display:flex;
+  flex-shrink:0;
+  width:70px;
+  padding: 10px 10px 10px 10px;
+  align-items:center;
+  justify-content:center;
+  
+}
+.location-pin{
+  height: 20px;
+  position:absolute;
+  bottom: 0;
+  right: -6px;
+}
+.location-specifics{
+  display:inline-block;
+  
+}
+.location-id{
+  position:relative; 
+}
+.span{
+  font-weight: bold;
+}
+.middle-section{
+  display:flex;
+  flex:1;
+  padding-left:25px;
+  
+}
+.all-button{
+  margin-right:-1px;
+  height:37px;
+  width:50px;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  border-color:black;
+}
+.all-button:hover{
+  cursor:pointer;
+  color:white;
+  background-color:rgb(255, 170, 12);
+  transition: 0.15s;
+}
+.search-bar{
+  line-height:24px;
+  border-color:white;
+  min-width:450px;
+}
+.search-button{
+  height:37px;
+  margin-left: -1px;
+  background-color:rgb(255, 170, 12);
+  border-top-right-radius:5px;
+  border-bottom-right-radius: 5px;
+  border-color:black;
+
+}
+.search-icon{
+  height:25px;
+  
+}
+.right-section{
+  display:flex;
+  flex-direction:row;
+  width:400px;
+  align-items:center;
+  justify-content: space-between;
+}
+.cart-section{
+  display:flex;
+  flex-direction: row;
+}
+.cart-section-buttons:hover{
+  cursor:pointer;
+  color:white;
+  background-color:rgb(255, 170, 12);
+  transition: 0.15s;
+}
+
+.cart{
+  width:30px;
+}
+.nav{
+  height:45px;
+  z-index:100;
+  position:fixed;
+  top:75px;
+  right:0;
+  left:0;
+  background-color:rgb(15, 17, 17);
+  border-bottom-right-radius: 10px;
+  color:white;
+}
+.nav-items{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  width:800px;
+}
+.hamburger-icon{
+  width:24px;
+}
+.menu-button{
+  justify-content:center;
+  align-items:center;
+  height:45px;
+}
+.nav-buttons{
+  background-color:rgb(15, 17, 17);
+  color:white;
+  height:45px;
+  width:120px;
+  border-style:solid;
+  border-color:rgb(15, 17, 17);
+  border-radius:10px;
+}
+.nav-buttons:hover{
+  cursor:pointer;
+  border-color:white;
+}

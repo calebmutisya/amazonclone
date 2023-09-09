@@ -1,0 +1,101 @@
+.product-section{
+  display: flex;
+  flex-direction: row;
+  z-index:70;
+  margin-top:450px;
+  padding-top:25px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.product-list{
+  min-width:300px;
+  display:flex;
+  flex-direction:column;
+  padding-left:10px;
+  padding-right:5px;
+}
+
+.bold{
+  font-weight: bold;
+}
+.shopping-ideas{
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  border-bottom-color:lightgray;
+}
+.climate-section{
+  margin-bottom:20px;
+  margin-top:10px;
+}
+.climate-button{
+  height:20px;
+  width:20px;
+  margin-right:15px;
+  border-width:2px;
+  border-radius:5px;
+}
+.office-school{
+  font-size:14px;
+  padding-left:20px;
+  margin-bottom:10px;
+}
+.customer-reviews{
+  margin-top:15px;
+}
+.and-up{
+  font-size: 12px;
+}
+.brands{
+  margin-top:15px;
+}
+.brand-types{
+  margin-top:10px;
+}
+.price-ladder{
+  margin-top:15px;
+}
+.price-index{
+  margin-top:10px;
+}
+
+.product-grid{
+  display:grid;
+  column-gap: 40px;
+  row-gap: 40px;
+  min-width:745px;
+  flex-shrink:0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  border-left-style:solid;
+  border-left-width: 2px;
+  border-left-color: lightgray;
+  padding-left:10px;
+  justify-content:center;
+}
+
+.product-desc{
+  width:200px; 
+}
+.product-desc:hover{
+  cursor:pointer;
+  color:rgb(255, 170, 12);
+}
+
+.pen-img{
+  width:200px;
+  min-height:200px;
+}
+.gold-star{
+  font-size:20px;
+  color: rgb(255, 170, 12);
+}
+.perfomance-numbers{
+  color: rgb(86, 89, 89);
+}
+.price{
+  font-size:20px;
+  font-weight: bold;
+}
+.cent{
+  font-size:15px;
+}
